@@ -119,7 +119,7 @@ def main():
                     st.download_button(
                         label='결과 엑셀 파일 다운로드',
                         data=output_buffer,
-                        file_name=f"{month}월_운반내역_차량별.xlsx",
+                        file_name=f"{month}월 내부,지입.xlsx",
                         mime='application/vnd.openxmlformats-officedocument.spreadsheetml.sheet'
                     )
         except Exception as e:
